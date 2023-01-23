@@ -5,9 +5,9 @@ God arbejdslyst!
 ## Om p5js
 p5.js er et JavaScript bibliotek, der er baseret på Processing og har en lignende syntaks og funktioner. Det er designet til at gøre det nemt at skrive interaktive og visuelle programmer og er et populært valg for kunstnere, designere og elever. Med p5.js kan du nemt skabe interaktive og visuelle projekter ved hjælp af en enkel og intuitiv syntaks. Det har også en række indbyggede funktioner og biblioteker til at hjælpe med at tegne og animere forme, håndtere input fra mus og tastatur og arbejde med video og lyd.
 
-Du kan prøve at arbejde med p5.js online ved at besøge følgende link: https://editor.p5js.org/
+Du kan prøve at arbejde med p5.js online ved at besøge følgende link: [https://editor.p5js.org/](https://editor.p5js.org/)
 
-## Om PVector
+## Om p5.Vector
 p5.js har også støtte for vektorklasser, som kan bruges til at repræsentere position, hastighed eller acceleration af objekter i dit program. I stedet for PVector kan man i p5.js bruge createVector() funktionen.
 
 Her er et eksempel på, hvordan man kan oprette en ny vektor i p5.js:
@@ -21,7 +21,7 @@ let velocity = createVector(2, 3);
 position.add(velocity);
 ```
 
-Se reference for mere information: https://p5js.org/reference/#/p5.Vector
+Se reference for mere information: [https://p5js.org/reference/#/p5.Vector](https://p5js.org/reference/#/p5.Vector)
 
 ## Udleveret kode
 
@@ -49,3 +49,15 @@ function draw() {
   ellipse(position.x, position.y, 20, 20);
 }
 ```
+
+## Obligatoriske opgaver
+1. Tilføj en variabel til programmet, der styrer størrelsen af ​​ellipse-formen og eksperimenter med at ændre størrelsen ved hjælp af matematiske formler (fx at øge størrelsen med en bestemt procentdel hver gang formen rammer kanterne af skærmen).
+2. Tilføj en variabel til programmet, der styrer farven på ellipse-formen og eksperimenter med at ændre farven ved hjælp af matematiske formler (fx at ændre farven fra rød til blå, når formen rammer kanterne af skærmen).
+3. Tilføj en variabel til programmet, der styrer rotationen af ​​ellipse-formen og eksperimenter med at ændre rotationen ved hjælp af matematiske formler
+
+## Ekstra opgaver
+1. Tilføj en ny vektor til programmet, der repræsenterer accelerationen af ​​ellipse-formen og brug denne vektor til at ændre hastigheden i stedet for at gøre det i if-sætningerne. Brug matematiske formler til at ændre accelerationen over tid.
+2. Tilføj en ny vektor til programmet, der repræsenterer en modstandsvektor, der skal trækkes fra hastighedsvektoren. Brug matematiske formler til at ændre styrken af ​​modstanden over tid.
+3. Tilføj flere ellipse-former til programmet og lad dem interagere med hinanden ved hjælp af vektorregning. Eksperimenter med forskellige interaktionsregler (fx at formerne tiltrækkes eller frastødes af hinanden) og brug matematiske formler til at styre interaktionerne.
+4. Tilføj en ny vektor til programmet, der repræsenterer en ekstern kraft, der påvirker ellipse-formen (fx vind eller gravitation) og brug matematiske formler til at styre styrken og retningen af ​​kraften.
+5. Tilføj en ny vektor til programmet, der repræsenterer en målposition og brug matematiske formler til at guide ellipse-formen mod målpositionen ved at ændre hastighedsvektoren.
