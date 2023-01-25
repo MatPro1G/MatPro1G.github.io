@@ -9,4 +9,5 @@ Du kan prøve at arbejde med p5.js online ved at besøge følgende link: [https:
 
 
 ## Udleveret kode
+Koden er en animation af en cirkel, der bevæger sig rundt på skærmen. Cirklen bevæger sig med en bestemt hastighed og vinkel, som kan ændres af brugeren via inputfeltet. Variablerne posX, posY repræsenterer cirklens position på x- og y-aksen, hastighedsvektoren er sat i kartesiske koordinater(velX, velY) og i polære (angle,hast). Hastighedsvektoren kan ændres via inputfeltet 'hastInput' i setup funktionen og i draw funktionen bliver positionen på cirklen opdateret og tegnet på canvas.
 [link til udleveretkode](udleveretkode.md)
