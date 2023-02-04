@@ -17,3 +17,8 @@ Koden er en animation af en cirkel, der bevæger sig rundt på skærmen. Cirklen
 2. Tilføj inputfelter til Hastighedsvektorens vinkel og størrelse. (husk polære input ændrer selvfølgelig kartesisk og omvendt)
 3. Tilføj kode, der gør, at bolden bouncer af på væggen ved at ændre hastighedsvektoren.
 4. Tilføj et inputfelt, der giver mulighed for at vælge, om bolden skal bounce eller komme igen fra den anden side.
+
+## ekstra opgaver
+- påvirk bolden med en tyngdekraft
+- lav inputfelter til tyngdekraften
+- lav flere bolde og udtænk en mulighed for at vælge en ønsket bold
