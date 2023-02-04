@@ -13,6 +13,10 @@ Koden er en animation af en cirkel, der bevæger sig rundt på skærmen. Cirklen
 
 [link til udleveretkode](https://editor.p5js.org/ajrp/sketches/9tmny3Eio)
 
-[prøv programmet](programmet/index.html)
+<!-- [prøv programmet](programmet/index.html) -->
 
 ## opgaver
+1. Tilføj inputfelter til hastighedsvektorens y-koordinat 
+2. Tilføj inputfelter til Hastighedsvektorens vinkel og størrelse. (husk polære input ændrer selvfølgelig kartesisk og omvendt)
+3. Tilføj kode, der gør, at bolden bouncer af på væggen ved at ændre hastighedsvektoren.
+4. Tilføj et inputfelt, der giver mulighed for at vælge, om bolden skal bounce eller komme igen fra den anden side.
