@@ -22,7 +22,8 @@ function setup() {
 }
 
 function inChanged(){
-  velX = Number(in_velX.value());
+  let inX = Number(in_velX.value()); 
+  velX = isNaN(inX) ? 0 : inX;
 }
 
 function draw() {
