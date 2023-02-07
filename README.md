@@ -13,13 +13,11 @@ Koden er en animation af en cirkel, der bevæger sig rundt på skærmen. Cirklen
 <!-- [prøv programmet](programmet/index.html) -->
 
 ## opgaver
-1. Tilføj inputfelter til hastighedsvektorens y-koordinat 
-2. Tilføj inputfelter til hastighedsvektorens vinkel og størrelse. (husk polære input ændrer selvfølgelig kartesisk og omvendt)
-3. Tilføj kode, der gør, at bolden bouncer af på væggen ved at ændre hastighedsvektoren.
-4. Tilføj et inputfelt, der giver mulighed for at vælge, om bolden skal bounce eller komme igen fra den anden side.
+1. Tilføj inputfelt til hastighedsvektorens y-koordinat
+2. Tilføj inputfelter til hastighedsvektorens vinkel og størrelse
+3. Sørg for at inputfelterne altid viser korrekt data
+4. Tilføj en checkbox, der giver mulighed for at vælge, om bolden skal "bounce" eller komme igen fra den anden side.
 
 ## ekstra opgaver
-- påvirk bolden med en tyngdekraft
-- lav inputfelter til tyngdekraften
+- introducer muligheden for at påvirke bolden med en ekstern valgfri kraf. F.eks. en vind eller tyngdekraft
 - lav flere bolde og udtænk en mulighed for at vælge en ønsket bold
-
